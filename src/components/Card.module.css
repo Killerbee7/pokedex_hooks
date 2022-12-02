@@ -30,3 +30,8 @@ img{
     
 }
 
+.card_details h2{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
