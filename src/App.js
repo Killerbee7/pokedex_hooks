@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from './pages/Layout';
-import {Routes,Route,BrowserRouter, useParams} from 'react-router-dom';
+import {Routes,Route,BrowserRouter} from 'react-router-dom';
 import PokeList from './components/PokeList';
 import About from './components/About';
 import Home from './components/Home';

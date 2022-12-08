@@ -81,7 +81,7 @@ useEffect(() => {
 
     setData(res);
     setIsLoading(false);
-    console.log(res);
+    
 });
     
    

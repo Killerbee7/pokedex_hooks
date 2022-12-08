@@ -42,7 +42,6 @@
 import React,{useEffect, useState} from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
 import classes from './PokeSingle.module.css';
 
 
@@ -68,8 +67,8 @@ const PokeSingle = () => {
         return <p>Loading...</p>;
     }
     return (
-        <div className="classes.card_single_container">
-        <div className="classes.card_single">
+        <div className={classes.card_single_container}>
+        <div className={classes.card_single}>
          <h1>{data.name}</h1>
       <img 
        src={data.sprites?.other.dream_world.front_default}
